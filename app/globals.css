@@ -5,12 +5,15 @@
   --palette-primary: #f05d4d;
   --palette-secondary: #f4f1e8;
   --palette-tertiary: #37373f;
+  /* Slightly above page bg — cards / panels */
+  --palette-surface: #43434c;
 }
 
 @theme inline {
   --color-primary: var(--palette-primary);
   --color-secondary: var(--palette-secondary);
   --color-tertiary: var(--palette-tertiary);
+  --color-surface: var(--palette-surface);
   --font-sans: var(--font-poppins);
   --font-mono: var(--font-geist-mono);
 }
