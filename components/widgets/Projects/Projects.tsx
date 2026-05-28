@@ -32,7 +32,7 @@ export const Projects = () => {
       <h2 className="text-xl font-semibold tracking-tight text-primary mb-4">
         My Projects
       </h2>
-      <div className="flex gap-4">
+      <div className="flex sm:flex-row flex-col sm:gap-4 gap-8">
         {projects.map((project) => (
           <a
             href={project.link}

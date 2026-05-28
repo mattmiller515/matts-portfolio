@@ -4,7 +4,7 @@ import LinkedInLogo from "@/public/linkedin-logo.svg";
 
 export const Header = () => {
   return (
-    <div className="flex gap-4 items-center w-full border-b border-gray-secondary pb-4">
+    <div className="flex sm:flex-row flex-col sm:gap-4 gap-0 items-center w-full border-b border-gray-secondary pb-4">
       <Image
         src="/profile-pic.png"
         alt="profile picture"
@@ -12,12 +12,13 @@ export const Header = () => {
         width={100}
         height={100}
       />
-      <div>
+      <div className="text-center sm:text-left sm:mt-0 mt-4">
         <h1 className="text-2xl">Matt Miller</h1>
         <p className="italic">Senior Full Stack Software Engineer</p>
       </div>
-      <div className="flex-1 italic flex flex-col text-right">
-        <div className="flex gap-2 items-center justify-end">
+      <div className="flex-1 italic flex flex-col text-right gap-2">
+        <p>mattmiller515@gmail.com</p>
+        <div className="flex gap-2 items-center justify-center sm:justify-end">
           <a
             href="https://github.com/mattmiller515"
             target="_blank"
@@ -45,7 +46,6 @@ export const Header = () => {
             />
           </a>
         </div>
-        <p>mattmiller515@gmail.com</p>
       </div>
     </div>
   );
