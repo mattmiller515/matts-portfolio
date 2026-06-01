@@ -1,6 +1,9 @@
 import { ContentCard } from "@/components/base/ContentCard";
-import { RESUME_FILENAME, RESUME_PDF_URL } from "@/lib/resume";
 import Image from "next/image";
+
+const RESUME_PDF_URL =
+  "https://docs.google.com/document/d/163Bt77Nzmnn4-VfW733fE5wLF6dJM07i/export?format=pdf";
+const RESUME_FILENAME = "MattMillerResume.pdf";
 
 export const AboutMe = () => {
   return (
@@ -29,7 +32,7 @@ export const AboutMe = () => {
             download={RESUME_FILENAME}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-auto inline-flex items-center gap-2 self-start rounded-lg bg-primary px-4 py-2 font-medium text-secondary not-italic shadow-md shadow-black/30 transition-all hover:brightness-110 hover:shadow-lg hover:shadow-black/40 active:scale-[0.98]"
+            className="mt-auto inline-flex items-center gap-2 self-center sm:self-start rounded-lg bg-primary px-4 py-2 font-medium text-secondary not-italic shadow-md shadow-black/30 transition-all hover:brightness-110 hover:shadow-lg hover:shadow-black/40 active:scale-[0.98]"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
