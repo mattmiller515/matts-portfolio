@@ -25,6 +25,10 @@
   }
 }
 
+html {
+  background: var(--palette-tertiary);
+}
+
 body {
   background: var(--palette-tertiary);
   color: var(--palette-secondary);
