@@ -2,7 +2,7 @@ import { ContentCard } from "@/components/base/ContentCard";
 import Image from "next/image";
 
 const RESUME_PDF_URL =
-  "https://docs.google.com/document/d/163Bt77Nzmnn4-VfW733fE5wLF6dJM07i/export?format=pdf";
+  "https://docs.google.com/document/d/18qV9MAQJPqbcwWHPyqNV4qLn6nWPZKRv/export?format=pdf";
 const RESUME_FILENAME = "MattMillerResume.pdf";
 
 export const AboutMe = () => {
